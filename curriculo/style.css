@@ -1,19 +1,23 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{margin: 0px;}
 html{scroll-behavior: smooth;}
 body{
-    background-color: #252525;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
     flex-direction: row;
 }
 header{
     background-color: #ff0000;
-    height: 1080px;
+    height: 100%;
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-right: solid 1px white;
     position: fixed;
     text-align: center;
@@ -25,23 +29,22 @@ header h2{
     padding-top: 1rem;
     font-size: 20px;
 }
-header ul{
+header #redes{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 nav ul{
     flex-direction: column;
     padding-top: 2rem;
-   
 }
 nav ul li{
     list-style: none;
-    padding: 7px;
+    padding: 7px 0px;
 }
 nav ul li a{
     text-decoration: none;
     color: white;
-    padding: 7px;
+    padding: 7px 0px;
 }
 nav ul li a:hover{
     background-color: black;
@@ -52,13 +55,12 @@ main{
     padding-left: 250px;
     margin: 30px 20px;
     width: 1920px;
-    background-color: black;
 }
+main dl{padding-left: 10px;}
 section{margin-bottom: 60px;}
 main h2{
-    background: linear-gradient(red, black);
-    font-size: 4rem;
-    font-family: 'Roboto Slab', serif;
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
 }
 #skills dd{
     margin-bottom: 1rem;
