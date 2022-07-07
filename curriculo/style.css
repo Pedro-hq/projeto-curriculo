@@ -34,7 +34,6 @@ header #redes{
     flex-direction: row;
 }
 nav ul{
-    flex-direction: column;
     padding-top: 2rem;
 }
 nav ul li{
@@ -70,6 +69,24 @@ main h2{
     margin-bottom: 1rem;
 }
 
-@media screen {
-    
+@media (max-width: 650px) {
+    header{
+        height: 15%;
+        width: 100%;
+        flex-direction: row;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    header img{
+        display: none;
+    }
+    main{
+        margin: 0% 0%;
+        padding-left: 5%;
+    }
+    #formac{
+        margin-top: 50%;
+    }
 }
