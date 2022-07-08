@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Lucida Sans Unicode','Lucida Grande', sans-serif;
+}
+h1{
+    background: linear-gradient(to right, #8b8b8b, #e0e0e0);
+}
+h2{
+    border-bottom: solid 2px;
+}
+p{
+    text-indent: 30px;
+}
+figure{
+    background-color: #f2eded;
+    text-align: center;
+    padding: 1rem;
+    border: solid 1px;
+    width: auto;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+div figure{
+    max-height: 290px;
+}
