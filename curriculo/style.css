@@ -69,13 +69,12 @@ main h2{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 1%;
 }
-
 #skills dd{
     margin-bottom: 1rem;
 }
 .exec {
     text-decoration: none;
-    color: white;
+    margin-bottom: 20%;
 }
 
 @media (max-width: 650px) {
